@@ -1,0 +1,19 @@
+/admin
+		/register
+		/login
+		/createUser
+		/deleteUser
+
+/comp
+		/
+		/create
+		/delete
+		/createJob
+		/deleteJob
+
+/user							authKey mandatory (except login)
+		/
+		/login		POST		regno & password
+		/subscribe				id
+		/desubscribe			id
+		
